@@ -15,4 +15,5 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-Using shadcn, for more information [Shadcn(https://ui.shadcn.com/docs)]
+
+Using shadcn, for more information [Shadcn](https://ui.shadcn.com/docs)
