@@ -20,7 +20,7 @@ const InputPage = () => {
   const [isOpen, setIsOpen] = React.useState(false)
   return (
     <>
-      <section className="relative block h-[20vh]">
+      <section className="relative block h-[16vh]">
         <div className="bg-profile-background absolute top-0 h-full w-full bg-[url('https://media.istockphoto.com/id/1352613626/vector/wave-3d-abstract-wave-dots-in-dark-background-big-data-technology-vector-background.jpg?s=612x612&w=0&k=20&c=JU9MeTspGLLTqqyKXXKlSpPfKmdH5fZqA2PdRKXpdHo=')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/60 bg-cover bg-center" />
       </section>
@@ -29,7 +29,7 @@ const InputPage = () => {
         <div className="relative mb-6 -mt-40 flex w-full px-4 min-w-0 flex-col break-words">
           <div className="container mx-auto">
             <Card>
-              <CardHeader className='p-5 text-xl font-bold'>
+              <CardHeader className='p-5 pb-1 text-xl font-bold'>
                 Shipper Demand
               </CardHeader>
               <CardContent className='p-5 pt-0'>

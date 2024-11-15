@@ -1,4 +1,6 @@
 // components/BottomNav.tsx
+"use client"
+
 import { Home, Boxes, FileBox } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Button } from "./button";
@@ -22,7 +24,7 @@ const BottomNav: React.FC = () => {
   const menuItems: BottomNavItem[] = [
     { icon: <FileBox />, label: "Supply", path: "/" },
     { icon: <Home />, label: "Home", path: "/" },
-    { icon: <Boxes />, label: "Demand", path: "/" },
+    { icon: <Boxes />, label: "Product", path: "/product" },
   ];
 
   return (
